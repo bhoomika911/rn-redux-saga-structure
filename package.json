@@ -9,6 +9,11 @@
     "test": "jest",
     "lint": "eslint ."
   },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test"
+    }
+  },
   "dependencies": {
     "husky": "^4.2.3",
     "immutable": "^4.0.0-rc.12",
@@ -38,10 +43,5 @@
   },
   "jest": {
     "preset": "react-native"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm test"
-    }
   }
 }
