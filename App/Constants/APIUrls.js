@@ -1,4 +1,4 @@
-const BASE_URL = "https://facebook.github.io/"; // Production URL
+const BASE_URL = "https://facebook.github.io/";
 
 const API = {
   BASE_URL: BASE_URL,
