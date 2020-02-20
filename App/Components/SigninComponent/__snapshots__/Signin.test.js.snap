@@ -1,0 +1,527 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unit testing : Signin page Rendering Snapshot testing 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {
+      "style": "flex:1;padding:20px;justify-content:center",
+    },
+    "children": Array [
+      Object {
+        "attribs": Object {
+          "style": "border-bottom-color:gray;border-bottom-width:1px;height:40px;margin-vertical:10px;width:710px",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "placeholder": "Email",
+              "testid": "email",
+              "underlinecolorandroid": "transparent",
+              "value": "",
+            },
+            "children": Array [],
+            "name": "textinput",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "placeholder": undefined,
+              "testid": undefined,
+              "underlinecolorandroid": undefined,
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "placeholder": undefined,
+              "testid": undefined,
+              "underlinecolorandroid": undefined,
+              "value": undefined,
+            },
+          },
+        ],
+        "name": "view",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Object {
+          "attribs": Object {
+            "style": "border-bottom-color:gray;border-bottom-width:1px;height:40px;margin-vertical:10px;width:710px",
+          },
+          "children": Array [
+            Object {
+              "attribs": Object {
+                "placeholder": "Password",
+                "testid": "password",
+                "underlinecolorandroid": "transparent",
+                "value": "",
+              },
+              "children": Array [],
+              "name": "textinput",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "placeholder": undefined,
+                "testid": undefined,
+                "underlinecolorandroid": undefined,
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "placeholder": undefined,
+                "testid": undefined,
+                "underlinecolorandroid": undefined,
+                "value": undefined,
+              },
+            },
+          ],
+          "name": "view",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Object {
+            "attribs": Object {
+              "focusable": "true",
+              "testid": "singinBtnTouchable",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "style": "height:40px;width:710px;border-width:1px;background-color:blue;border-radius:20px;align-items:center;justify-content:center",
+                  "testid": "singinBtn",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "style": "color:white;font-size:20px",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "Signin",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "text",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "style": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "style": undefined,
+                    },
+                  },
+                ],
+                "name": "view",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "style": undefined,
+                  "testid": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "style": undefined,
+                  "testid": undefined,
+                },
+              },
+            ],
+            "name": "view",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "focusable": undefined,
+              "testid": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "focusable": undefined,
+              "testid": undefined,
+            },
+          },
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "style": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "style": undefined,
+          },
+        },
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "style": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "style": undefined,
+        },
+      },
+      Object {
+        "attribs": Object {
+          "style": "border-bottom-color:gray;border-bottom-width:1px;height:40px;margin-vertical:10px;width:710px",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "placeholder": "Password",
+              "testid": "password",
+              "underlinecolorandroid": "transparent",
+              "value": "",
+            },
+            "children": Array [],
+            "name": "textinput",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "placeholder": undefined,
+              "testid": undefined,
+              "underlinecolorandroid": undefined,
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "placeholder": undefined,
+              "testid": undefined,
+              "underlinecolorandroid": undefined,
+              "value": undefined,
+            },
+          },
+        ],
+        "name": "view",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Object {
+          "attribs": Object {
+            "focusable": "true",
+            "testid": "singinBtnTouchable",
+          },
+          "children": Array [
+            Object {
+              "attribs": Object {
+                "style": "height:40px;width:710px;border-width:1px;background-color:blue;border-radius:20px;align-items:center;justify-content:center",
+                "testid": "singinBtn",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "style": "color:white;font-size:20px",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "Signin",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "text",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "style": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "style": undefined,
+                  },
+                },
+              ],
+              "name": "view",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "style": undefined,
+                "testid": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "style": undefined,
+                "testid": undefined,
+              },
+            },
+          ],
+          "name": "view",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "focusable": undefined,
+            "testid": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "focusable": undefined,
+            "testid": undefined,
+          },
+        },
+        "parent": [Circular],
+        "prev": Object {
+          "attribs": Object {
+            "style": "border-bottom-color:gray;border-bottom-width:1px;height:40px;margin-vertical:10px;width:710px",
+          },
+          "children": Array [
+            Object {
+              "attribs": Object {
+                "placeholder": "Email",
+                "testid": "email",
+                "underlinecolorandroid": "transparent",
+                "value": "",
+              },
+              "children": Array [],
+              "name": "textinput",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "placeholder": undefined,
+                "testid": undefined,
+                "underlinecolorandroid": undefined,
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "placeholder": undefined,
+                "testid": undefined,
+                "underlinecolorandroid": undefined,
+                "value": undefined,
+              },
+            },
+          ],
+          "name": "view",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "style": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "style": undefined,
+          },
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "style": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "style": undefined,
+        },
+      },
+      Object {
+        "attribs": Object {
+          "focusable": "true",
+          "testid": "singinBtnTouchable",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "style": "height:40px;width:710px;border-width:1px;background-color:blue;border-radius:20px;align-items:center;justify-content:center",
+              "testid": "singinBtn",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "style": "color:white;font-size:20px",
+                },
+                "children": Array [
+                  Object {
+                    "data": "Signin",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "text",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "style": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "style": undefined,
+                },
+              },
+            ],
+            "name": "view",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "style": undefined,
+              "testid": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "style": undefined,
+              "testid": undefined,
+            },
+          },
+        ],
+        "name": "view",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": Object {
+          "attribs": Object {
+            "style": "border-bottom-color:gray;border-bottom-width:1px;height:40px;margin-vertical:10px;width:710px",
+          },
+          "children": Array [
+            Object {
+              "attribs": Object {
+                "placeholder": "Password",
+                "testid": "password",
+                "underlinecolorandroid": "transparent",
+                "value": "",
+              },
+              "children": Array [],
+              "name": "textinput",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "placeholder": undefined,
+                "testid": undefined,
+                "underlinecolorandroid": undefined,
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "placeholder": undefined,
+                "testid": undefined,
+                "underlinecolorandroid": undefined,
+                "value": undefined,
+              },
+            },
+          ],
+          "name": "view",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": Object {
+            "attribs": Object {
+              "style": "border-bottom-color:gray;border-bottom-width:1px;height:40px;margin-vertical:10px;width:710px",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "placeholder": "Email",
+                  "testid": "email",
+                  "underlinecolorandroid": "transparent",
+                  "value": "",
+                },
+                "children": Array [],
+                "name": "textinput",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "placeholder": undefined,
+                  "testid": undefined,
+                  "underlinecolorandroid": undefined,
+                  "value": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "placeholder": undefined,
+                  "testid": undefined,
+                  "underlinecolorandroid": undefined,
+                  "value": undefined,
+                },
+              },
+            ],
+            "name": "view",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "style": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "style": undefined,
+            },
+          },
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "style": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "style": undefined,
+          },
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "focusable": undefined,
+          "testid": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "focusable": undefined,
+          "testid": undefined,
+        },
+      },
+    ],
+    "name": "view",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "style": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "style": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
+  },
+}
+`;
