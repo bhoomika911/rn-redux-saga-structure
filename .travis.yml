@@ -1,0 +1,32 @@
+language: node_js
+node_js: lts/erbium
+git:
+  quiet: true
+env:
+  global:
+    - ABI=x86_64
+    - ADB_INSTALL_TIMEOUT=8
+    - ANDROID_HOME=${HOME}/android-sdk
+    - ANDROID_TOOLS_URL="https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip"
+    - EMU_FLAVOR=default # use google_apis flavor if no default flavor emulator
+    - GRAVIS="https://raw.githubusercontent.com/DanySK/Gravis-CI/master/"
+    - JDK="1.8"
+    - TOOLS=${ANDROID_HOME}/tools
+    # PATH order is incredibly important. e.g. the 'emulator' script exists in more than one place!
+    - PATH=${ANDROID_HOME}:${ANDROID_HOME}/emulator:${TOOLS}:${TOOLS}/bin:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/build-tools:${PATH}
+    - API=28
+    - NODE_VERSION=lts/erbium
+branches:
+  only:
+    - master
+    - develop
+jobs:
+  include:
+  - name: Unit tests
+    cache:
+      npm: true
+    install:
+      - npm install -g react-native-cli
+      - npm install -g detox-cli
+      - npm install
+    script: npm run test
